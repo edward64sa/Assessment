@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+  .COverarea{
+    width: 1400px;
+  }
+  .bg-color1{
+    background: rgb(244, 67, 54);
+  }
+    .custom-rounded {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+      }
+
+      .rcorners {
+        border-radius: 25px;
+        background: white;
+        position:absolute;
+        height: 300px;
+        width: 310px;
+        z-index: 10;
+        top: -15px;
+        left: -17px !important;
+       
+        
+        
+       
+        
+        
+      }
+      .coverdot{
+        border-radius: 50px;
+        background: white;
+        position:absolute;
+        height: 13px;
+        width: 13px;
+        z-index: 10;
+        top: 283px;
+        left: -3px;
+      
+
+      }
+      .coverdot-1{
+        border-radius: 50px;
+        background: white;
+        position:absolute;
+        height: 12px;
+        width: 12px;
+        z-index: 10;
+        top: -5px;
+        left: 281px;
+
+      }
+      .rededge {
+        border-radius: 50px;
+        background: rgb(244, 67, 54);
+        position:absolute;
+        height: 30px;
+        width: 31px;
+        z-index: 10;
+        top: 285px;
+        left: -1px;
+        rotate: 65deg;
+       
+        
+        
+       
+        
+        
+      }
+      .rededge-1{
+        border-radius: 50px;
+        background: rgb(244, 67, 54);
+        position:absolute;
+        height: 30px;
+        width: 31px;
+        z-index: 10;
+        top: 0.5px;
+        left: 285px;
+        rotate: 65deg;
+
+      }
+
+      .rcorners-2 {
+        border-radius: 28px;
+        background: white;
+        position:absolute;
+        height: 180px;
+        width: 178px;
+        z-index: 10;
+        top: -24px;
+        left: 1327px !important;
+       
+        
+        
+       
+        
+        
+      }
+      .rededge-2{
+        border-radius: 50px;
+        background: rgb(244, 67, 54);
+        position:absolute;
+        height: 30px;
+        width: 31px;
+        z-index: 10;
+        top: -0.5px;
+        left: 1300px;
+        rotate: 65deg;
+
+      }
+      .coverdot-2{
+        border-radius: 0 0 0 50px;
+       
+        background: white;
+        position:absolute;
+        height: 12px;
+        width: 18px;
+        z-index: 10;
+        top: -5px;
+        left: 1319px;
+        rotate: 38deg;
+
+      }
+      .rcorners-3{
+        border-radius: 0 28px 28px 28px;
+        background: white;
+        position:absolute;
+        height: 188px;
+        width: 310px;
+        z-index: 10;
+        top: 604px;
+        left: -7px !important;
+      }
+}
